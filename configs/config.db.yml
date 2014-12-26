@@ -1,0 +1,13 @@
+bootstrap:
+  database:
+    file: "includes/data/source/db/DBConnection.php"
+    config: "databases"
+databases:
+  mainmysql:
+    driver: "mysql"
+    host: "127.0.0.1"
+    port: "3306"
+    password: ""
+    user: "root"
+    database: "test"
+    alias: "main"

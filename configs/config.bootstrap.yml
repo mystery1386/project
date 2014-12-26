@@ -1,0 +1,32 @@
+# Alle Klassen die zu Beginn initialisiert werden muessen.
+# Die Bearbeitung dieser Klassen uebernimmt die Klasse
+# fblib/includes/init/Bootstrap.php.
+# file - Gibt an welche Datei geladen werden soll. Der Name der entsprechenden
+# Klasse muss der basename der Datei sein.
+# config - Gibt an welcher Teil aus der config an initialize uebergeben
+# werden soll.
+bootstrap:
+  errorhandler:
+    file: includes/error/ErrorHandler.php
+    priority: true
+  logger:
+    file: includes/logger/Logger.php
+    config: logger
+    priority: true
+  #smarty:
+  #  file: fblib/text/SmartyExt.php
+  #  config: smarty
+# Logger config
+logger:
+  target: file
+  level: debug
+  file: "ROOT_PATH/log/application.log"
+# Verzeichnis fuer die kompilierten Templates und die Verzeichnisse in
+# denen die Plugins definiert sind.
+#smarty:
+  #compile_dir: "TMP_PATH/compiled"
+  #plugin_dirs: [
+  #  'ROOT_PATH/base/extensions/smarty',
+  #  'ROOT_PATH/base/extensions/smarty/formular',
+  #  'INCLUDE_PATH/fblib/text/smarty',
+  #]

@@ -1,0 +1,6 @@
+controller:
+  instances:
+    test:
+      name: test
+    test2:
+      name: test2

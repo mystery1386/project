@@ -1,0 +1,15 @@
+2014-12-07 02:58:29 - localhost - [8052] - error: Cannot access self:: when no class scope is active
+in xdebug://debug-eval (1)
+
+2014-12-26 13:02:01 - localhost - [19441] - error: Bootstrap::initialize(): Failed opening required 'includes/data/source/db/DbConnection.php' (include_path='.:/opt/lampp/lib/php:/opt/lampp/htdocs/work/project/includes:/opt/lampp/htdocs/work/project')
+in /opt/lampp/htdocs/work/project/includes/init/Bootstrap.php (32)
+
+2014-12-26 13:06:30 - localhost - [19439] - error: Bootstrap::initialize(): Failed opening required 'includes/data/source/db/DbConnection.php' (include_path='.:/opt/lampp/lib/php:/opt/lampp/htdocs/work/project/includes:/opt/lampp/htdocs/work/project')
+in /opt/lampp/htdocs/work/project/includes/init/Bootstrap.php (32)
+
+2014-12-26 13:09:42 - localhost - [19442] - error: Bootstrap::initialize(): Failed opening required 'includes/data/source/db/DbConnection.php' (include_path='.:/opt/lampp/lib/php:/opt/lampp/htdocs/work/project/includes:/opt/lampp/htdocs/work/project')
+in /opt/lampp/htdocs/work/project/includes/init/Bootstrap.php (32)
+
+2014-12-26 13:16:31 - localhost - [19440] - error: Bootstrap::initialize(): Failed opening required 'includes/data/source/db/DbConnection.php' (include_path='.:/opt/lampp/lib/php:/opt/lampp/htdocs/work/project/includes:/opt/lampp/htdocs/work/project')
+in /opt/lampp/htdocs/work/project/includes/init/Bootstrap.php (32)
+

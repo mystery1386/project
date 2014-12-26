@@ -1,0 +1,6 @@
+configs: [
+  "config.bootstrap.yml",
+  "config.db.yml",
+  "config.local.yml",
+  "config.controller.yml"
+]
