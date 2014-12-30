@@ -1,0 +1,13 @@
+bootstrap:
+  resources:
+  file: "includes/resourcemanager/ResourceManager.php"
+  config: resources
+resources:
+  # Verzeichnisse, in denen die Controller gesucht werden.
+  # Es werden nur Controller geladen, die auch in der config.controller.yml konfiguriert wurden.
+  # Die Such-Reihenfolge entscheidet bei gleichem namen, welcher Controller geladen wird.
+  controller_dirs: [
+    "APPLICATION_PATH/controller",
+    "APPLICATION_PATH/components",
+    "APPLICATION_PATH/interfaces"
+  ]
