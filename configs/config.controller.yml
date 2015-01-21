@@ -1,6 +1,6 @@
 controller:
   instances:
-    test:
-      name: test
+    testcomponent:
+      name: testcomponent
     test2:
       name: test2
