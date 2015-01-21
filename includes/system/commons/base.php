@@ -22,3 +22,4 @@ set_include_path($includePath);
 require_once('includes/globals/Environment.php');
 require_once('includes/globals/Config.php');
 require_once('includes/init/Bootstrap.php');
+require_once('includes/controller/ControllerRegistry.php');
